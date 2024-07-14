@@ -1,0 +1,30 @@
+header {
+    background: $primary-color;
+    color: white;
+    padding: 1rem 0;
+
+    nav ul {
+        list-style: none;
+        @include flex-center;
+
+        li {
+            margin: 0 1rem;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+section {
+    padding: 2rem 0;
+}
+
+footer {
+    background: $secondary-color;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
